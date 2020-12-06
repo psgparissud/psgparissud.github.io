@@ -10,31 +10,10 @@
   <meta name="theme-color" content="#041c86">
   <link rel="stylesheet" href="index.css"></head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-</head>
-<body>
-  <div id="content">
-
-    <h1 id="title">Suis les aventures de Colombe, à la recherche de la lumière de la paix</h1>
-
-    <div id="background">
-        <img src="assets/home.png">
-        <div class="button" id="n11" onclick="loadpdf('11.pdf')"></div>
-        <div class="button" id="n12" onclick="loadpdf('12.pdf')"></div>
-        <div class="button" id="n13" onclick="loadpdf('13.pdf')"></div>
-        <div class="button" id="n14" onclick="loadpdf('14.pdf')"></div>
-        <div class="button" id="n15" onclick="loadpdf('15.pdf')"></div>
-        <div class="button" id="n16" onclick="loadpdf('16.pdf')"></div>
-        <div class="button" id="n17" onclick="loadpdf('17.pdf')"></div>
-        <div class="button" id="n18" onclick="loadpdf('18.pdf')"></div>
-    </div>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 
-    <canvas id="pdf"></canvas>
-
-  </div>
-
-  <script type="javascript">
+  <script>
     function loadpdf() {
       var loadingTask = PDFJS.getDocument("/assets/test.pdf");
       loadingTask.promise.then(
@@ -66,5 +45,28 @@
       );
     }
   </script>
+
+</head>
+<body>
+  <div id="content">
+
+    <h1 id="title">Suis les aventures de Colombe, à la recherche de la lumière de la paix</h1>
+
+    <div id="background">
+        <img src="assets/home.png">
+        <div class="button" id="n11" onclick="loadpdf('11.pdf')"></div>
+        <div class="button" id="n12" onclick="loadpdf('12.pdf')"></div>
+        <div class="button" id="n13" onclick="loadpdf('13.pdf')"></div>
+        <div class="button" id="n14" onclick="loadpdf('14.pdf')"></div>
+        <div class="button" id="n15" onclick="loadpdf('15.pdf')"></div>
+        <div class="button" id="n16" onclick="loadpdf('16.pdf')"></div>
+        <div class="button" id="n17" onclick="loadpdf('17.pdf')"></div>
+        <div class="button" id="n18" onclick="loadpdf('18.pdf')"></div>
+    </div>
+
+
+    <canvas id="pdf"></canvas>
+
+  </div>
 </body>
 </html>
