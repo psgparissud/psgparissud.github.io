@@ -36,6 +36,12 @@ body {
 
     width: 12.5%;
     height: 15.3%;
+    transition: opacity 250ms;
+}
+
+.button:hover {
+    background-color: white;
+    opacity: .15;
 }
 
 #n18 {
@@ -63,14 +69,17 @@ body {
     top: 78%;
 }
 #n13 {
-    right: 38.5%;
+    right: 37.5%;
     top: 58%;
+
+    width: 14.5%;
+    height: 19.3%;
 }
 #n12 {
     right: 49%;
     top: 81%;
 }
 #n11 {
-    right: 74%;
+    right: 64%;
     top: 72%;
 }
