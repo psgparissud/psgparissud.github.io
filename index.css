@@ -37,6 +37,7 @@ body {
     width: 12.5%;
     height: 15.3%;
     transition: opacity 250ms;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -65,7 +66,7 @@ body {
 }
 
 #n14 {
-    right: 20.2%;
+    right: 19.8%;
     top: 78%;
 }
 #n13 {
