@@ -21,22 +21,56 @@ body {
     max-width: 1200px;
 }
 
-#background img {
-    width: 100%;
-     /* border: 1px solid gray; */
-    border-radius: 7px;
-    box-shadow: 0px 0px 3px grey;
-
+#background {
     position: relative;
 }
 
-.content {
+#background img {
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 3px grey;
+}
+
+.button {
     position: absolute;
 
-    width: 50px;
-    height: 50px;
+    width: 12.5%;
+    height: 15.3%;
+}
+
+#n18 {
+    right: 1.8%;
+    top: 3.5%;
+}
+
+#n17 {
+    right: 9%;
+    top: 22%;
+}
+
+#n16 {
+    right: 2%;
+    top: 42%;
+}
+
+#n15 {
     right: 10%;
-    top: 10%;
+    top: 60%;
+}
 
-
+#n14 {
+    right: 20.2%;
+    top: 78%;
+}
+#n13 {
+    right: 38.5%;
+    top: 58%;
+}
+#n12 {
+    right: 49%;
+    top: 81%;
+}
+#n11 {
+    right: 74%;
+    top: 72%;
 }
