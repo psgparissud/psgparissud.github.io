@@ -284,14 +284,15 @@
   direction: ltr;
   width: 816px;
   height: 1056px;
-  margin: 1px auto -8px auto;
+  /* margin: 1px auto -8px auto; */
   position: relative;
   overflow: visible;
   border: 9px solid transparent;
   background-clip: content-box;
-  -o-border-image: url(images/shadow.png) 9 9 repeat;
-     border-image: url(images/shadow.png) 9 9 repeat;
+  /* -o-border-image: url(images/shadow.png) 9 9 repeat;
+     border-image: url(images/shadow.png) 9 9 repeat; */
   background-color: rgba(255, 255, 255, 1);
+  margin: 0;
 }
 
 .pdfViewer.removePageBorders .page {
@@ -638,6 +639,7 @@ html[dir='rtl'] #sidebarContent {
   bottom: 0;
   left: 0;
   outline: none;
+  background-color: white !important;
 }
 #viewerContainer:not(.pdfPresentationMode) {
   transition-duration: 200ms;
@@ -646,10 +648,10 @@ html[dir='rtl'] #sidebarContent {
   transition-timing-function: var(--sidebar-transition-timing-function);
 }
 html[dir='ltr'] #viewerContainer {
-  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.05);
+  /* box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.05); */
 }
 html[dir='rtl'] #viewerContainer {
-  box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.05);
+  /* box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.05); */
 }
 
 #outerContainer.sidebarResizing #viewerContainer {
