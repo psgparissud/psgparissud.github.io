@@ -11,6 +11,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #1e1e1e;
+
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    max-width: 1200px;
 }
 
 #background img {
