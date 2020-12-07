@@ -1,4 +1,7 @@
-function loadpdf() {
+function loadpdf(name) {
+
+    document.getElementById("pdf").setAttribute("src", "/assets/pdfjs/web/viewer.html?zoom=page-fit&file=%2Fassets%2Fpdf%2F" + name);
+    document.getElementById('modal').setAttribute("class", "")
     // var loadingTask = PDFJS.getDocument("/assets/test.pdf");
     // loadingTask.promise.then(
     //   function(pdf) {
@@ -28,3 +31,7 @@ function loadpdf() {
     //   }
     // );
   }
+
+function closePdf() {
+    document.getElementById('modal').setAttribute("class", "hidden")
+}

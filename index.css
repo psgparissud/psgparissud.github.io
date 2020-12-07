@@ -84,3 +84,43 @@ body {
     right: 64%;
     top: 72%;
 }
+
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    padding: 2rem;
+}
+
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0px black;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content iframe {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.framectx {
+    flex: 1;
+}
+
+.return {
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
